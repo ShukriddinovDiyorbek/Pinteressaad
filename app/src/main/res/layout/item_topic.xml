@@ -13,7 +13,7 @@
         android:background="@drawable/textview_topic_background"
         android:paddingVertical="12dp"
         android:paddingHorizontal="20dp"
-        android:text="Wallpaper"
+        android:text="@string/wallpaper"
         android:textColor="@color/white"
         android:textSize="15sp"
         android:textStyle="bold" />

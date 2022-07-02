@@ -25,13 +25,15 @@
             android:layout_weight="1"
             android:background="@drawable/edittext_search_background"
             android:drawableEnd="@drawable/ic_camera"
-            android:hint="Search for ideas"
+            android:hint="@string/search_for_ideas"
             android:imeOptions="actionSearch"
             android:inputType="text"
             android:padding="8dp"
             android:singleLine="true"
             android:textColor="@color/black"
-            android:textColorHint="#90000000" />
+            android:textColorHint="#90000000"
+            tools:ignore="RtlSymmetry"
+            android:autofillHints="name" />
 
         <TextView
             android:id="@+id/tvCancel"
@@ -39,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="8dp"
             android:layout_marginBottom="5dp"
-            android:text="Cancel"
+            android:text="@string/cancel"
             android:textColor="@color/black"
             android:textSize="16sp" />
 

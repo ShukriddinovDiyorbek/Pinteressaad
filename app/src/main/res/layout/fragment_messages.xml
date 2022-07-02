@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="60dp"
         android:layout_marginTop="86dp"
-        android:text="Share ideas with your friends"
+        android:text="@string/share_ideas_with_your_friends"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="28sp"
@@ -44,7 +44,9 @@
         android:textColorHint="#90000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvIdeas" />
+        app:layout_constraintTop_toBottomOf="@id/tvIdeas"
+        android:autofillHints="name"
+        tools:ignore="RtlSymmetry" />
 
     <ImageView
         android:id="@+id/ivContact"
@@ -57,12 +59,13 @@
         android:scaleType="centerCrop"
         android:src="@drawable/ic_contacts"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edtSearch" />
+        app:layout_constraintTop_toBottomOf="@id/edtSearch"
+        android:contentDescription="@string/friend_contacts" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sync contacts"
+        android:text="@string/sync_contacts"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"

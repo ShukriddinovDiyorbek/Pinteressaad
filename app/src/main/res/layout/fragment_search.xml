@@ -26,10 +26,13 @@
             android:drawablePadding="8dp"
             android:paddingStart="12dp"
             android:focusable="false"
-            android:hint="Search for ideas"
+            android:hint="@string/search_for_ideas"
             android:padding="8dp"
             android:textColor="@color/black"
-            android:textColorHint="#90000000" />
+            android:textColorHint="#90000000"
+            android:autofillHints="name"
+            android:inputType="text"
+            tools:ignore="RtlSymmetry" />
 
     </LinearLayout>
 
@@ -42,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Ideas for you"
+            android:text="@string/ideas_for_you"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="18sp"
@@ -92,7 +95,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:text="Fireplace design"
+                                android:text="@string/fireplace_design"
                                 android:textColor="@color/mainWhite"
                                 android:textSize="16sp" />
 
@@ -132,7 +135,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Nature photography"
+                                android:text="@string/nature_photography"
                                 android:textColor="@color/mainWhite"
                                 android:textSize="16sp" />
 
@@ -183,7 +186,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingHorizontal="20dp"
-                                android:text="Landscape photography"
+                                android:text="@string/landscape_photography"
                                 android:textAlignment="center"
                                 android:textColor="@color/mainWhite"
                                 android:textSize="16sp" />
@@ -224,7 +227,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Beautiful places"
+                                android:text="@string/beautiful_places"
                                 android:textColor="@color/mainWhite"
                                 android:textSize="16sp" />
 
@@ -250,7 +253,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Popular on Pinterest"
+            android:text="@string/popular_on_pinterest"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="18sp"
@@ -300,7 +303,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:text="Fireplace design"
+                                android:text="@string/fireplace_design"
                                 android:textColor="@color/mainWhite"
                                 android:textSize="16sp" />
 
@@ -340,7 +343,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Nature photography"
+                                android:text="@string/nature_photography"
                                 android:textColor="@color/mainWhite"
                                 android:textSize="16sp" />
 
@@ -391,7 +394,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingHorizontal="20dp"
-                                android:text="Landscape photography"
+                                android:text="@string/landscape_photography"
                                 android:textAlignment="center"
                                 android:textColor="@color/mainWhite"
                                 android:textSize="16sp" />
@@ -432,7 +435,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Beautiful places"
+                                android:text="@string/beautiful_places"
                                 android:textColor="@color/mainWhite"
                                 android:textSize="16sp" />
 
@@ -483,7 +486,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingHorizontal="20dp"
-                                android:text="Landscape photography"
+                                android:text="@string/landscape_photography"
                                 android:textAlignment="center"
                                 android:textColor="@color/mainWhite"
                                 android:textSize="16sp" />
@@ -524,7 +527,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Beautiful places"
+                                android:text="@string/beautiful_places"
                                 android:textColor="@color/mainWhite"
                                 android:textSize="16sp" />
 

@@ -10,20 +10,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/img" />
+            android:src="@drawable/img"
+            android:contentDescription="@string/notification_icon" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
-            android:text="Nothing to see here"
+            android:text="@string/nothing_to_see_here"
             android:textColor="#000000"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -33,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="center_horizontal"
-            android:text="It looks like you don't have any new\n comments. Edit your filter to see\n different updates, or publish  new ideas\n to get more engagement!"
+            android:text="@string/notification_text"
             android:textColor="#000000" />
 
         <TextView
@@ -42,7 +44,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/textview_background"
             android:padding="10dp"
-            android:text="Reset filter"
+            android:text="@string/reset_filter"
             android:textColor="#000000" />
     </LinearLayout>
 

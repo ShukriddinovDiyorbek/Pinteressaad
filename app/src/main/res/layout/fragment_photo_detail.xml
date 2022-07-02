@@ -65,7 +65,8 @@
                                 android:src="@drawable/ic_more"
                                 app:layout_constraintEnd_toEndOf="parent"
                                 app:layout_constraintTop_toTopOf="parent"
-                                app:tint="@color/mainWhite" />
+                                app:tint="@color/mainWhite"
+                                android:contentDescription="@string/for_more_inform" />
 
                         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -109,7 +110,7 @@
                                 android:id="@+id/tvNumFollowers"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="10k followers"
+                                android:text="@string/_10k_followers"
                                 android:textColor="#90000000"
                                 android:textSize="14sp" />
 
@@ -121,7 +122,7 @@
                             android:layout_marginStart="5dp"
                             android:background="@drawable/textview_background"
                             android:padding="10dp"
-                            android:text="Follow"
+                            android:text="@string/follow"
                             android:textColor="#000000" />
                     </LinearLayout>
 
@@ -157,7 +158,7 @@
                                 android:background="@drawable/textview_background"
                                 android:padding="16dp"
                                 android:paddingHorizontal="6dp"
-                                android:text="View"
+                                android:text="@string/view"
                                 android:textColor="#000000"
                                 android:textSize="16sp" />
 
@@ -169,7 +170,7 @@
                                 android:background="@drawable/textview_background_red"
                                 android:padding="16dp"
                                 android:paddingHorizontal="6dp"
-                                android:text="Save"
+                                android:text="@string/save"
                                 android:textColor="@color/mainWhite"
                                 android:textSize="16sp" />
 
@@ -184,7 +185,8 @@
                             android:src="@drawable/ic_share"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:contentDescription="@string/share_icon" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -211,7 +213,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Comments"
+                        android:text="@string/comments"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="18sp"
@@ -222,7 +224,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="Love this Pin? Let"
+                        android:text="@string/love_this_pin_let"
                         android:textColor="#000000"
                         android:textSize="15sp" />
 
@@ -255,7 +257,7 @@
                                     android:layout_height="40dp"
                                     android:background="@drawable/ic_profile"
                                     android:gravity="center"
-                                    android:text="J"
+                                    android:text="@string/j"
                                     android:textColor="@color/white"
                                     android:textSize="16sp" />
 
@@ -269,7 +271,7 @@
                             android:layout_marginStart="18dp"
                             android:layout_weight="1"
                             android:gravity="center_vertical"
-                            android:hint="Add a comment" />
+                            android:hint="@string/add_a_comment" />
 
                     </LinearLayout>
 
@@ -294,7 +296,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="More like this"
+                        android:text="@string/more_like_this"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="18sp"
@@ -321,7 +323,8 @@
         android:layout_margin="16dp"
         android:src="@drawable/ic_back"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/back" />
 
     <include
         android:id="@+id/bottomSheetMore"

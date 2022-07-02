@@ -19,13 +19,15 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_marginEnd="22dp"
-            android:src="@drawable/ic_share" />
+            android:src="@drawable/ic_share"
+            android:contentDescription="@string/share_icon" />
 
         <ImageView
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_marginEnd="18dp"
-            android:src="@drawable/ic_more" />
+            android:src="@drawable/ic_more"
+            android:contentDescription="@string/for_more_inform" />
 
     </LinearLayout>
 
@@ -59,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
                 android:paddingHorizontal="24dp"
-                android:text="Jonibek Xolmonov"
+                android:text="@string/name"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="36sp"
@@ -69,7 +71,7 @@
                 android:id="@+id/tvUsername"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="jonibekxolmonov"
+                android:text="@string/nickname"
                 android:textColor="#818181"
                 android:textSize="16sp" />
 
@@ -78,7 +80,7 @@
                 android:id="@+id/tvFollow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0 followers · 0 following"
+                android:text="@string/folows"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
@@ -100,17 +102,20 @@
                     android:layout_weight="1"
                     android:background="@drawable/edittext_search_background"
                     android:drawableStart="@drawable/ic_search_2"
-                    android:hint="Search your Pins"
+                    android:hint="@string/search_your_pins"
                     android:padding="10dp"
                     android:paddingHorizontal="2dp"
                     android:textColor="@color/black"
-                    android:textColorHint="#90000000" />
+                    android:textColorHint="#90000000"
+                    android:inputType="text"
+                    android:autofillHints="name" />
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="12dp"
-                    android:src="@drawable/ic_plus" />
+                    android:src="@drawable/ic_plus"
+                    android:contentDescription="@string/add" />
 
             </LinearLayout>
 

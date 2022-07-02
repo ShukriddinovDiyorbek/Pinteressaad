@@ -102,7 +102,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
     }
 
     private fun getUser() {
-        apiService.getUser("jonibekxolmonov").enqueue(object : Callback<User> {
+        apiService.getUser("diyor0123").enqueue(object : Callback<User> {
             override fun onResponse(call: Call<User>, response: Response<User>) {
 
                 val user = response.body()!!
